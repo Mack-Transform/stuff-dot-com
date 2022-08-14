@@ -1,0 +1,1 @@
+select * FROM {{source('transactions','order_details')}}
