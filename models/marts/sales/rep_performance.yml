@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_sales_rep_performance
-    description: ""
+    description: "This model will get exposed to the regional sales rep dashboard.  Sourced updated daily"
     columns:
       - name: discount
         test:

@@ -6,6 +6,7 @@ sources:
     tables:
       - name: customers1
       - name: sale_fact
+        description: "Fact table to US sales transactions.  Loader- Fivetran"
         loaded_at_field: created_at
         freshness:
           warn_after: {count: 6, period: hour}
