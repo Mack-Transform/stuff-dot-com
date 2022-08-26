@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: dim_sales_rep_performance
+    description: ""
+    columns:
+      - name: discount
+        test:
+          - not_null
+        description: "% off unit price set by corporate"
+
+      - name: product_base_margin
+        description: "Should be a float and converted to % at exposure"
+
+      - name: order_id
+        description: "Unique transaction id"
+
+      - name: profit
+        description: "Amount gained per sale"
+
+      - name: sales
+        description: ""
+
+      - name: unit_price
+        description: ""
+
+      - name: order_date
+        description: ""
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: role
+        description: "Internal role of rep, can change over time (SCD)"
+
+      - name: comm_rate
+        description: "Percentage of quarterly sum total to be awarded to rep"
+
