@@ -4,7 +4,7 @@ sources:
     database: analytics
     schema: dbt_amack
     tables:
-      - name: customers1
+      - name: customer1
       - name: sale_fact
         description: "Fact table to US sales transactions.  Loader- Python Scripts"
         loaded_at_field: created_at
@@ -23,12 +23,4 @@ sources:
         columns:
           - name: customer_id
             tests:
-              #- unique
               - not_null
-              #- relationships:
-              #    to: ref('stg_sale_fact')
-              #    field: customer_id
-        freshness:
-          warn_after: {count: 24, period: hour}
-          error_after: {count:48, period: hour}
-
