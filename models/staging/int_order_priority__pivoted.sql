@@ -9,7 +9,7 @@ sale_table as (
 ),
 sale_order as (
     select handling, o.order_id, ship_date, order_date, order_priority,
-    s."Sales" as sales 
+    s."sales" as sales 
     from order_table o
     left join sale_table s
     on (o.order_id = s.order_id)
