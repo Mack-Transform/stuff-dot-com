@@ -7,7 +7,7 @@ models:
       - name: customer_id
         tests:
           - not_null
-          - unique
+         # - unique
         description: "unique order for every customer. will not change"
 
       - name: city
