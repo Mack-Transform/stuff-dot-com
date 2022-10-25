@@ -4,7 +4,7 @@ sources:
     database: analytics
     schema: dbt_amack
     tables:
-      - name: customers1
+      - name: customer1
       - name: sale_fact
         description: "Fact table to US sales transactions.  Loader- Python Scripts"
         loaded_at_field: created_at

@@ -1,14 +1,14 @@
 version: 2
 
- models:
-  - name: stg_inc_orders
-    columns:
-      - name: customer_id
-        tests:
-          - not_null
-          - relationships:
-              to: ref('stg_sale_fact')
-              field: customer_id
-              config:
-                severity: warn
+models:
+- name: stg_inc_orders
+  columns:
+    - name: customer_id
+      tests:
+        - not_null
+        - relationships:
+            to: ref('stg_sale_fact')
+            field: customer_id
+            config:
+              severity: warn
                 
