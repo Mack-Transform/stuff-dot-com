@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: dim_inc_orders
+    description: ""
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+         # - unique
+        description: "unique order for every customer. will not change"
+
+      - name: city
+        description: ""
+
+      - name: state
+        description: ""
+
+      - name: postal_code
+        tests:
+          - postal_length
+        description: "National zipcode.  May come in as integer.  Test will insure all codes are 5 chars in length"
+
+      - name: category
+        description: "Set categories from corporate"
+
+      - name: item
+        description: "SKU name"
+
+      - name: order_date
+        description: ""
+
+      - name: ship_date
+        description: ""
+
+      - name: handling
+        description: "time from order recieved to order shipped"
