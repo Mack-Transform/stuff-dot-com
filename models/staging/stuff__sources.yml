@@ -23,11 +23,7 @@ sources:
         columns:
           - name: customer_id
             tests:
-              #- unique
               - not_null
-              #- relationships:
-              #    to: ref('stg_sale_fact')
-              #    field: customer_id
         freshness:
           warn_after: {count: 24, period: hour}
           error_after: {count:48, period: hour}
