@@ -1,0 +1,16 @@
+version: 2
+exposures:
+  
+  - name: US_Market_Performance
+    type: dashboard
+    maturity: high
+    url: https://public.tableau.com/app/profile/antoine.mack4193/viz/Stuff_Mart_Demo/Dashboard1?publish=yes
+    description: >
+      Basic us peformance metrics for disctrict managers."?
+    
+    depends_on:
+      - ref('dim_rep_sales_outcomes')
+      
+    owner:
+      name: Antoine Mack
+      email: antoine.mack@dbtlabs.com

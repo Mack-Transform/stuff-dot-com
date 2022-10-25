@@ -10,7 +10,7 @@ emp_table as (
 final as (
     select s."Discount" as discount, s.product_base_margin, s.order_id , 
     s."Profit" as profit, s."Sales" as sales, 
-    s.unit_price, o.order_date, e.first_name, e.last_name, e.role, e.comm_rate
+    s.unit_price, DATEADD('year',5,o.order_date) as order_date, e.first_name, e.last_name, e.role, e.comm_rate
     
     from sale_table s
     left join order_table o
