@@ -6,7 +6,7 @@ sources:
     tables:
       - name: customers1
       - name: sale_fact
-        description: "Fact table to US sales transactions.  Loader- Fivetran"
+        description: "Fact table to US sales transactions.  Loader- Python Scripts"
         loaded_at_field: created_at
         freshness:
           warn_after: {count: 6, period: hour}
@@ -25,9 +25,9 @@ sources:
             tests:
               - unique
               - not_null
-              - relationships:
-                  to: ref('stg_sale_fact')
-                  field: customer_id
+              #- relationships:
+              #    to: ref('stg_sale_fact')
+              #    field: customer_id
         freshness:
           warn_after: {count: 6, period: hour}
           error_after: {count: 12, period: hour}
