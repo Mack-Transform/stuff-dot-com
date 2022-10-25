@@ -7,8 +7,6 @@ models:
       - name: customer_id
         tests:
           - not_null
-         # - unique
-        description: "unique order for every customer. will not change"
 
       - name: city
         description: ""
@@ -17,9 +15,6 @@ models:
         description: ""
 
       - name: postal_code
-        tests:
-          - postal_length
-        description: "National zipcode.  May come in as integer.  Test will insure all codes are 5 chars in length"
 
       - name: category
         description: "Set categories from corporate"
