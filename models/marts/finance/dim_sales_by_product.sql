@@ -1,3 +1,7 @@
+{{ config(
+    tags=["finance"]
+) }}
+
 with sale_table as (
     select * from {{ref('stg_sale_fact')}}
 ),
