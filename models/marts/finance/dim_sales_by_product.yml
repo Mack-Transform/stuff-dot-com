@@ -2,10 +2,10 @@ version: 2
 
 models:
   - name: dim_sales_by_product
-    description: ""
+    description: "This model keeps track of all promotions applied to purchases for finance"
     columns:
       - name: discount
-        description: ""
+        description: "Amount offered for promotions"
 
       - name: product_base_margin
         description: ""
