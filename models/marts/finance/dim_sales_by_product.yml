@@ -1,0 +1,36 @@
+models:
+  - name: dim_sales_by_product
+    description: ""
+    columns:
+      - name: discount
+        description: ""
+
+      - name: product_base_margin
+        description: ""
+
+      - name: profit
+        description: ""
+
+      - name: sales
+        description: ""
+
+      - name: unit_price
+        description: ""
+
+      - name: customer_id
+        description: ""
+
+      - name: item_id
+        description: ""
+
+      - name: order_date
+        description: ""
+
+      - name: category
+        description: ""
+
+      - name: department
+        description: ""
+
+      - name: item
+        description: ""
