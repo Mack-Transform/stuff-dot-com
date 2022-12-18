@@ -1,4 +1,5 @@
-with inc_orders as (
+
+    with inc_orders as (
    select * from {{ ref('int_inc_orders')}}
 )
  
