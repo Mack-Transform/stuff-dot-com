@@ -37,5 +37,5 @@ models:
   staging:
     materialized: view
 seeds:
-  jaffle_shop:
+  stuff_dot_com:
     +schema: dbt_amack
