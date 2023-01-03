@@ -36,6 +36,14 @@ models:
     materialized: tables
   staging:
     materialized: view
+
 seeds:
   stuff_dot_com:
+    +enabled: true
     +schema: dbt_amack
+    # This configures seeds/country_codes.csv
+    usa_staten_codes:
+      # Override column types
+      +column_types:
+        stusab: varchar(2)
+        
