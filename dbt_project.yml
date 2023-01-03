@@ -36,3 +36,6 @@ models:
     materialized: tables
   staging:
     materialized: view
+seeds:
+  jaffle_shop:
+    +schema: dbt_amack
