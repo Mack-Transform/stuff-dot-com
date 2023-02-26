@@ -4,6 +4,7 @@
 # name or the intended use of these models
 name: 'stuff_dot_com'
 version: '1.4.0'
+require-dbt-version: ">=1.0.0"
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
@@ -36,3 +37,14 @@ models:
     materialized: tables
   staging:
     materialized: view
+
+seeds:
+  stuff_dot_com:
+    +enabled: true
+    +schema: dbt_amack
+    # This configures seeds/country_codes.csv
+    usa_staten_codes:
+      # Override column types
+      +column_types:
+        stusab: varchar(2)
+        
