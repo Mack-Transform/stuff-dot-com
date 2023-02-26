@@ -11,4 +11,8 @@ models:
             field: customer_id
             config:
               severity: warn
-                
+
+- name: my_python_model
+  config:
+    materialized: table
+    target_name: "{{ target.name }}"
