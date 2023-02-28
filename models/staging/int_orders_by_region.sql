@@ -3,7 +3,7 @@
 )
 
 
-select customer_segment, department, region, count(customer_id) as order_count
+select customer_segment, department, count(customer_id) as order_count
 
 
 from inc_orders
