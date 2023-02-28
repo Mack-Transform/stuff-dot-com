@@ -10,8 +10,7 @@ order_table as (
 ),
 final as (
     select s.discount, s.product_base_margin, s.order_id , 
-    s.profit, s.sales, 
-    s.unit_price, o.order_date
+    s.profit, s.sales, s.unit_price, o.ship_mode, o.region, o.order_date 
     from sale_table s
     left join order_table o
     on (s.order_id = o.order_id)
