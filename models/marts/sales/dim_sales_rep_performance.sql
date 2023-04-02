@@ -14,3 +14,5 @@ with rep_data as (
 )
 
 select * FROM rep_data
+where first_name is not null 
+and last_name is not null

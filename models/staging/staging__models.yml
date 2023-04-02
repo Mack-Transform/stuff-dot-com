@@ -11,5 +11,18 @@ models:
             field: customer_id
             config:
               severity: warn
+- name: customer_zips
+  config:
+    materialized: table
+  columns:
+    - name: POSTAL_CODE
+      data_type: string
+      tests:
+        - postal_length
+
+          
+
+
+
 
 
