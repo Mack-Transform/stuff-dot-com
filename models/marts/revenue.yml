@@ -6,8 +6,8 @@ metrics:
     model: ref('dim_orders_basic')
     description: "Total revenue for sales in all regions"
 
-    type: sum
-    sql: profit
+    calculation_method: sum
+    expression: total_revenue
 
     timestamp: order_date
     time_grains: [day, week, month, year]
