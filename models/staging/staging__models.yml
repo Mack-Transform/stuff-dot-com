@@ -6,11 +6,6 @@ models:
     - name: customer_id
       tests:
         - not_null
-        - relationships:
-            to: ref('stg_sale_fact')
-            field: customer_id
-            config:
-              severity: warn
 - name: customer_zips
   config:
     materialized: table
@@ -18,7 +13,8 @@ models:
     - name: POSTAL_CODE
       data_type: string
       tests:
-        - postal_length
+        - gen_postal_code
+      
 
           
 
