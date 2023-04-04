@@ -17,6 +17,8 @@ models:
   columns:
     - name: POSTAL_CODE
       data_type: string
+      tests:
+        - gen_postal_code
       
 
           
