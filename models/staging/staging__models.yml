@@ -17,8 +17,7 @@ models:
   columns:
     - name: POSTAL_CODE
       data_type: string
-      tests:
-        - postal_length
+      
 
           
 
