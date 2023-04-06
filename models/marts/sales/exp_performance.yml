@@ -10,6 +10,8 @@ exposures:
     
     depends_on:
       - ref('dim_rep_sales_outcomes')
+      - source('transactions','inc_orders')
+    
       
     owner:
       name: Antoine Mack
