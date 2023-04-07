@@ -42,6 +42,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 sources:
    +enabled: true
 
+snapshots:
+    +enabled: true
+
 seeds:
   stuff_dot_com:
     +enabled: true
