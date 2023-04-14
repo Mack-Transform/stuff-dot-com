@@ -5,7 +5,7 @@ reps as (
     select * from {{ ref('stg_employee')}}
 )
 
-select category, city, customer_segment, item, order_date, department,
+select category, city, customer_segment, item, item_id, order_date, department,
         postal_code, o.region, rep, "STATE", emp_id, first_name, last_name, customer_id
 
 from orders o 
