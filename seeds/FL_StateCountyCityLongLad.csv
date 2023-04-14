@@ -1,0 +1,101 @@
+ZipCode,StateFIPS,StateCode,StateName,CountyFIPS,CountyName,City,ClassFIPS,latitude,longitude,accuracy
+32336,12,FL,Florida,123,Taylor,Lamont,H1,30.3772,-83.8129,4
+32348,12,FL,Florida,123,Taylor,Perry,H1,29.9665,-83.6594,4
+32359,12,FL,Florida,123,Taylor,Steinhatchee,H1,29.6739,-83.3723,4
+32347,12,FL,Florida,123,Taylor,Perry,H1,30.1668,-83.616,4
+32058,12,FL,Florida,125,Union,Lawtey,H1,30.0472,-82.1055,4
+32697,12,FL,Florida,125,Union,Worthington springs,H1,29.9315,-82.4255,4
+32083,12,FL,Florida,125,Union,Raiford,H1,30.0704,-82.2001,4
+32054,12,FL,Florida,125,Union,Lake butler,H1,30.0035,-82.3828,4
+32170,12,FL,Florida,127,Volusia,New smyrna beach,H1,29.0258,-80.927,4
+32117,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2353,-81.0658,4
+32119,12,FL,Florida,127,Volusia,Daytona beach,H1,29.16,-81.0269,4
+32713,12,FL,Florida,127,Volusia,Debary,H1,28.8846,-81.3065,4
+32180,12,FL,Florida,127,Volusia,Pierson,H1,29.2226,-81.4353,4
+32126,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32759,12,FL,Florida,127,Volusia,Oak hill,H1,28.87,-80.8551,4
+32130,12,FL,Florida,127,Volusia,De leon springs,H1,29.1166,-81.3488,4
+32121,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32122,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32127,12,FL,Florida,127,Volusia,Port orange,H1,29.1383,-80.9956,4
+32118,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2219,-81.0095,4
+32724,12,FL,Florida,127,Volusia,Deland,H1,29.0422,-81.2863,4
+32114,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2012,-81.0371,4
+32141,12,FL,Florida,127,Volusia,Edgewater,H1,28.9455,-80.8969,4
+32169,12,FL,Florida,127,Volusia,New smyrna beach,H1,29.0172,-80.8885,4
+32128,12,FL,Florida,127,Volusia,Port orange,H1,29.1383,-80.9956,4
+32753,12,FL,Florida,127,Volusia,Debary,H1,28.883,-81.3087,4
+32175,12,FL,Florida,127,Volusia,Ormond beach,H1,29.2858,-81.0559,4
+32723,12,FL,Florida,127,Volusia,Deland,H1,29.0275,-81.3068,4
+32706,12,FL,Florida,127,Volusia,Cassadaga,H1,28.9664,-81.2371,4
+32124,12,FL,Florida,127,Volusia,Daytona beach,H1,29.1419,-81.1402,4
+32173,12,FL,Florida,127,Volusia,Ormond beach,H1,29.2858,-81.0559,4
+32105,12,FL,Florida,127,Volusia,Barberville,H1,29.2005,-81.4065,4
+32136,12,FL,Florida,127,Volusia,Flagler beach,H1,29.475,-81.1303,4
+32764,12,FL,Florida,127,Volusia,Osteen,H1,28.8426,-81.1562,4
+32721,12,FL,Florida,127,Volusia,Deland,H1,28.9973,-81.2995,4
+32174,12,FL,Florida,127,Volusia,Ormond beach,H1,29.2833,-81.0882,4
+32176,12,FL,Florida,127,Volusia,Ormond beach,H1,29.3222,-81.0584,4
+32132,12,FL,Florida,127,Volusia,Edgewater,H1,28.9818,-80.9103,4
+32754,12,FL,Florida,127,Volusia,Mims,H1,28.6974,-80.8663,4
+32115,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32102,12,FL,Florida,127,Volusia,Astor,H1,29.165,-81.5399,4
+32728,12,FL,Florida,127,Volusia,Deltona,H1,29.0227,-81.1722,4
+32168,12,FL,Florida,127,Volusia,New smyrna beach,H1,29.0247,-80.9584,4
+32190,12,FL,Florida,127,Volusia,Seville,H1,29.3201,-81.5279,4
+32763,12,FL,Florida,127,Volusia,Orange city,H1,28.9453,-81.2995,4
+32738,12,FL,Florida,127,Volusia,Deltona,H1,28.9093,-81.1922,4
+32774,12,FL,Florida,127,Volusia,Orange city,H1,28.9489,-81.2987,4
+32120,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32125,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32198,12,FL,Florida,127,Volusia,Daytona beach,H1,29.2108,-81.0228,4
+32129,12,FL,Florida,127,Volusia,Port orange,H1,29.1372,-81.0241,4
+32720,12,FL,Florida,127,Volusia,Deland,H1,29.0266,-81.3349,4
+32725,12,FL,Florida,127,Volusia,Deltona,H1,28.8989,-81.2473,4
+32732,12,FL,Florida,127,Volusia,Geneva,H1,28.7503,-81.1114,4
+32744,12,FL,Florida,127,Volusia,Lake helen,H1,28.9806,-81.2334,4
+32112,12,FL,Florida,127,Volusia,Crescent city,H1,29.4272,-81.5579,4
+32739,12,FL,Florida,127,Volusia,Deltona,H1,29.0227,-81.1722,4
+32326,12,FL,Florida,129,Wakulla,Crawfordville,H1,30.176,-84.3752,4
+32358,12,FL,Florida,129,Wakulla,Sopchoppy,H1,30.0714,-84.4549,4
+32327,12,FL,Florida,129,Wakulla,Crawfordville,H1,30.2108,-84.3205,4
+32346,12,FL,Florida,129,Wakulla,Panacea,H1,30.0153,-84.3912,4
+32355,12,FL,Florida,129,Wakulla,Saint marks,H1,30.1631,-84.2083,4
+32455,12,FL,Florida,131,Walton,Ponce de leon,H1,30.7041,-85.9546,4
+32539,12,FL,Florida,131,Walton,Crestview,H1,30.7773,-86.4832,4
+32578,12,FL,Florida,131,Walton,Niceville,H1,30.5169,-86.4822,4
+32459,12,FL,Florida,131,Walton,Santa rosa beach,H1,30.3659,-86.2458,4
+32538,12,FL,Florida,131,Walton,Paxton,H1,30.9709,-86.3111,4
+32461,12,FL,Florida,131,Walton,Inlet beach,H1,30.2835,-86.0305,4
+32464,12,FL,Florida,131,Walton,Westville,H1,30.8747,-85.913,4
+32462,12,FL,Florida,131,Walton,Vernon,H1,30.6267,-85.7553,4
+32407,12,FL,Florida,131,Walton,Panama city beach,H1,30.2007,-85.8136,4
+32435,12,FL,Florida,131,Walton,Defuniak springs,H1,30.721,-86.1152,4
+32433,12,FL,Florida,131,Walton,Defuniak springs,H1,30.8494,-86.2023,4
+32550,12,FL,Florida,131,Walton,Miramar beach,H1,30.385,-86.3473,4
+32422,12,FL,Florida,131,Walton,Argyle,H1,30.7056,-86.0314,4
+32439,12,FL,Florida,131,Walton,Freeport,H1,30.4896,-86.1684,4
+32567,12,FL,Florida,131,Walton,Laurel hill,H1,30.9524,-86.4003,4
+32428,12,FL,Florida,133,Washington,Chipley,H1,30.7107,-85.5486,4
+32420,12,FL,Florida,133,Washington,Alford,H1,30.6412,-85.3756,4
+32437,12,FL,Florida,133,Washington,Ebro,H1,30.4352,-85.8881,4
+32438,12,FL,Florida,133,Washington,Fountain,H1,30.4753,-85.4293,4
+32431,12,FL,Florida,133,Washington,Cottondale,H1,30.8004,-85.3847,4
+32427,12,FL,Florida,133,Washington,Caryville,H1,30.7123,-85.8014,4
+32462,12,FL,Florida,133,Washington,Vernon,H1,30.6267,-85.7553,4
+32425,12,FL,Florida,133,Washington,Bonifay,H1,30.8464,-85.69,4
+32466,12,FL,Florida,133,Washington,Youngstown,H1,30.3269,-85.5169,4
+32463,12,FL,Florida,133,Washington,Wausau,H1,30.6321,-85.5888,4
+31557,13,GA,Georgia,1,Appling,Patterson,H1,31.3903,-82.1274,4
+31513,13,GA,Georgia,1,Appling,Baxley,H1,31.7837,-82.3486,4
+31518,13,GA,Georgia,1,Appling,Bristol,H1,31.4833,-82.215,4
+31539,13,GA,Georgia,1,Appling,Hazlehurst,H1,31.8606,-82.5909,4
+31560,13,GA,Georgia,1,Appling,Screven,H1,31.5168,-82.0397,4
+31563,13,GA,Georgia,1,Appling,Surrency,H1,31.6489,-82.1982,4
+31555,13,GA,Georgia,1,Appling,Odum,H1,31.6999,-81.9943,4
+30233,13,GA,Georgia,1,Appling,Jackson,H1,33.282,-83.9784,4
+31510,13,GA,Georgia,1,Appling,Alma,H1,31.5465,-82.4633,4
+31552,13,GA,Georgia,3,Atkinson,Millwood,H1,31.2506,-82.6441,4
+31624,13,GA,Georgia,3,Atkinson,Axson,H1,31.3035,-82.7319,4
+31642,13,GA,Georgia,3,Atkinson,Pearson,H1,31.3106,-82.8591,4
+31650,13,GA,Georgia,3,Atkinson,Willacoochee,H1,31.3455,-83.0449,4
