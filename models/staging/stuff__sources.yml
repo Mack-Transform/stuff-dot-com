@@ -3,10 +3,10 @@ sources:
   - name: transactions
     database: analytics
     schema: dbt_amack
-    freshness: # default freshness
-      warn_after: {count: 12, period: day}
-      error_after: {count: 24, period: day}
-    loaded_at_field: created_at
+#    freshness: # default freshness
+#      warn_after: {count: 12, period: day}
+#     error_after: {count: 24, period: day}
+#    loaded_at_field: created_at
 
     tables:
       - name: customer1
