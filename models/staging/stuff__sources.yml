@@ -3,13 +3,16 @@ sources:
   - name: transactions
     database: analytics
     schema: dbt_amack
-#    freshness: # default freshness
-#      warn_after: {count: 12, period: day}
-#     error_after: {count: 24, period: day}
-#    loaded_at_field: created_at
+    freshness: # default freshness
+      warn_after: {count: 2, period: day}
+      error_after: {count: 5, period: day}
+    loaded_at_field: created_at
 
     tables:
       - name: customer1
+        description: "Non PII customer data.  Primarily for location based sales analysis"
+        freshness: null
+        
 
       - name: sale_fact
         description: "Fact table to US sales transactions.  Loader- Python Scripts"
@@ -23,7 +26,11 @@ sources:
           error_after: {count: 12, period: day}
 
       - name: products
+        freshness: null
+
       - name: employee
+        freshness: null
+        
       - name: inc_orders
         freshness:
           warn_after: {count: 6, period: day}
