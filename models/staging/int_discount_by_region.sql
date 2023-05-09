@@ -6,7 +6,7 @@ discounts as (
 )
 
 select city, "STATE", customer_segment, ord.item, ord.item_id, ord.order_date,
-        postal_code, region, rep,  discount,  product_base_margin
+        postal_code, region, rep,  discount
 from orders as ord
 left join 
 discounts as dis 
