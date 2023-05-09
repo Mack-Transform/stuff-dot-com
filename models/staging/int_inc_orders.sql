@@ -6,7 +6,7 @@ reps as (
 )
 
 select category, city, customer_segment, item, item_id, order_date, department,
-        postal_code, o.region, rep, "STATE", emp_id, first_name, last_name, customer_id
+        postal_code, o.region, rep, "STATE", emp_id, first_name, last_name
 
 from orders o 
 left join reps r
