@@ -5,9 +5,9 @@ discounts as (
     select * from {{ ref('dim_sales_by_product')}}
 )
 
-select city, "STATE", customer_segment, o.item, d.item_id, o.order_date,
+select city, "STATE", customer_segment, ord.item, ord.item_id, ord.order_date,
         postal_code, region, rep,  discount,  product_base_margin
-from orders o
+from orders as ord
 left join 
-discounts d 
-on o.item_id = d.item_id
+discounts as dis 
+on ord.item_id = dis.item_id
