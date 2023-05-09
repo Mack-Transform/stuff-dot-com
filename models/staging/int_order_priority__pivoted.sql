@@ -16,7 +16,7 @@ sale_order as (
 ),
 final as (
     select order_id,
-    {% for i in priority_ship %}
+    {%- for i in priority_ship -%}
 
     sum(case when order_priority = '{{ i }}' then sales else 0 end) as {{ i }}_priority
     {%- if not loop.last -%}
