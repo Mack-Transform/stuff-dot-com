@@ -1,0 +1,86 @@
+version: 2
+
+models:
+- name: stg_inc_orders
+  columns:
+    - name: customer_id
+      tests:
+        - not_null
+        - relationships:
+            field: <FOREIGN_KEY_COLUMN>
+            to: ref('')
+- name: customer_zips
+  config:
+    materialized: table
+  columns:
+    - name: POSTAL_CODE
+      data_type: string
+      tests:
+        - gen_postal_code
+
+- name: stg_employee
+  description: "Current and historical fulltime employees"
+  columns:
+    - name: region
+      description: "Distinct area of operation"
+
+    - name: first_name
+      description: "Employee first name"
+
+    - name: last_name
+      description: "Employee last name"
+
+    - name: start_date
+      description: "Employee role start date"
+
+    - name: end_date
+      description: "Employee role end date"
+
+    - name: role
+      description: "Designated position within the company"
+
+    - name: status
+      description: "Active or Inactive: Designates the state of employee role"
+
+    - name: emp_id
+      description: "Unique company Identification code"
+
+    - name: manager
+      description: "Manager at time of role"
+
+    - name: comm_rate
+      description: "Agreed upon commission rate of employee, will be null if non commission employee"
+
+    - name: created_at
+      description: "Date entry was created"
+          
+- name: stg_customers1
+  description: "Raw table of customers who have completed orders with the company.  "
+  columns:
+    - name: city
+      description: "City of purchase"
+
+    - name: customer_id
+      description: "Unique customer ID"
+
+    - name: customer_name
+      description: "Customer first and last name"
+
+    - name: customer_segment
+      description: "Customer purchasing segment"
+
+    - name: postal_code
+      description: "zipcode of purchase"
+
+    - name: region
+      description: "Company designated region of purchase"
+
+    - name: state
+      description: "State of purchase"
+
+    - name: created_at
+      description: "Date in which input was created"
+
+
+
+
